@@ -1,21 +1,21 @@
 {
 	"name": "adapter-fastify",
-	"version": "5.2.12",
+	"version": "0.1.0",
 	"description": "Adapter for SvelteKit apps that generates a standalone Node Fastify server",
 	"keywords": [
 		"adapter",
 		"deploy",
-		"hosting",
+		"fastify",
 		"node.js",
 		"svelte",
 		"sveltekit"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sveltejs/kit"
+		"url": "https://github.com/MiyasaKun/adapter-fastify"
 	},
 	"license": "MIT",
-	"homepage": "https://svelte.dev",
+	"homepage": "https://github.com/MiyasaKun/adapter-fastify#readme",
 	"type": "module",
 	"exports": {
 		".": {
