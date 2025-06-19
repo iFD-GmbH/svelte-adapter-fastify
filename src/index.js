@@ -59,12 +59,11 @@ if (use_http2) {
   };
   protocol = "https";
 }
-console.log(fastify_opts,protocol);
 
 const server = fastify(fastify_opts);
 
-server.all('/*', (req, reply) => {
-    handler(req.raw, reply.raw);
+server.all("/*", (req, reply) => {
+  handler(req.raw, reply.raw);
 });
 
 const listen_opts = socket_activation
@@ -103,7 +102,6 @@ function graceful_shutdown(reason) {
   });
 
   shutdown_timeout_id = setTimeout(() => {
-    console.error("Could not close connections in time, forcing shut down.");
     process.exit(1);
   }, shutdown_timeout * 1000);
 }
