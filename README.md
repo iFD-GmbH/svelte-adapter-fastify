@@ -61,6 +61,7 @@ The behavior of the deployed server can be controlled with the following environ
 -   **`USE_HTTP2`**: Set to `'true'` to enable HTTP/2. Defaults to `'false'`.
 -   **`HTTPS_KEY_PATH`**: Path to the SSL private key file. Required if `USE_HTTP2` is `true`.
 -   **`HTTPS_CERT_PATH`**: Path to the SSL certificate file. Required if `USE_HTTP2` is `true`.
+-   **`LOGGER`**: Set to `'true'` to enable Fastify's built-in logger. Defaults to `'false'`.
 -   **`SHUTDOWN_TIMEOUT`**: The time in seconds to wait for connections to close before forcefully shutting down. Defaults to `30`.
 -   **`IDLE_TIMEOUT`**: For systemd socket activation, the time in seconds to wait for a new request before shutting down. Defaults to `0` (disabled).
 -   **`LISTEN_PID`**, **`LISTEN_FDS`**: For systemd socket activation. See the [systemd documentation](https://www.freedesktop.org/software/systemd/man/latest/sd_listen_fds.html) for more details.

@@ -11,12 +11,14 @@ export const port = env("PORT", !path && "3000");
 const use_http2 = env("USE_HTTP2", "false").toLowerCase() === "true";
 const https_key_path = env("HTTPS_KEY_PATH", "certs/key.pem");
 const https_cert_path = env("HTTPS_CERT_PATH", "certs/cert.pem");
+const logger_status = env("LOGGER", "false").toLowerCase() === "true";
 
 const shutdown_timeout = parseInt(env("SHUTDOWN_TIMEOUT", "10"));
 const idle_timeout = parseInt(env("IDLE_TIMEOUT", "0"));
 const listen_pid = parseInt(env("LISTEN_PID", "0"));
 const listen_fds = parseInt(env("LISTEN_FDS", "0"));
 // https://www.freedesktop.org/software/systemd/man/latest/sd_listen_fds.html
+
 const SD_LISTEN_FDS_START = 3;
 
 if (listen_pid !== 0 && listen_pid !== process.pid) {
@@ -39,7 +41,7 @@ let shutdown_timeout_id;
 let idle_timeout_id;
 
 const fastify_opts = {
-  logger: true,
+  logger: logger_status,
 };
 
 let protocol = "http";
