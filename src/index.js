@@ -8,7 +8,7 @@ export const path = env("SOCKET_PATH", false);
 export const host = env("HOST", "0.0.0.0");
 export const port = env("PORT", !path && "3000");
 
-const use_http2 = env("USE_HTTP2", "true").toLowerCase() === "true";
+const use_http2 = env("USE_HTTP2", "false").toLowerCase() === "true";
 const https_key_path = env("HTTPS_KEY_PATH", "certs/key.pem");
 const https_cert_path = env("HTTPS_CERT_PATH", "certs/cert.pem");
 
