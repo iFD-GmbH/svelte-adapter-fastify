@@ -1,8 +1,8 @@
-import process from "node:process";
-import { handler } from "HANDLER";
 import { env } from "ENV";
 import fastify from "fastify";
+import { handler } from "HANDLER";
 import { readFileSync } from "node:fs";
+import process from "node:process";
 
 export const path = env("SOCKET_PATH", false);
 export const host = env("HOST", "0.0.0.0");
@@ -18,6 +18,7 @@ const idle_timeout = parseInt(env("IDLE_TIMEOUT", "0"));
 const listen_pid = parseInt(env("LISTEN_PID", "0"));
 const listen_fds = parseInt(env("LISTEN_FDS", "0"));
 // https://www.freedesktop.org/software/systemd/man/latest/sd_listen_fds.html
+
 
 const SD_LISTEN_FDS_START = 3;
 
@@ -61,6 +62,10 @@ if (use_http2) {
 }
 
 const server = fastify(fastify_opts);
+
+server.addContentTypeParser('application/x-www-form-urlencoded', (request, payload, done) => {
+  done();
+});
 
 server.all("/*", (req, reply) => {
   handler(req.raw, reply.raw);
@@ -132,3 +137,4 @@ process.on("SIGTERM", () => graceful_shutdown("SIGTERM"));
 process.on("SIGINT", () => graceful_shutdown("SIGINT"));
 
 export { server };
+

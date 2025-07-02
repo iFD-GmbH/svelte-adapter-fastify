@@ -17,7 +17,7 @@ export default [
 	{
 		input: 'src/index.js',
 		output: {
-			file: 'files/index.js',
+			dir: 'files',
 			format: 'esm'
 		},
 		plugins: [nodeResolve({ preferBuiltins: true }), commonjs(), json(), prefixBuiltinModules()],
