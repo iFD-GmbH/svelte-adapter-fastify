@@ -1,6 +1,6 @@
 {
-	"name": "adapter-fastify",
-	"version": "0.1.0",
+	"name": "svelte-adapter-fastify",
+	"version": "0.1.1",
 	"description": "Adapter for SvelteKit apps that generates a standalone Node Fastify server",
 	"keywords": [
 		"adapter",
