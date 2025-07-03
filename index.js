@@ -12,7 +12,7 @@ export default function (opts = {}) {
 	const { out = 'build', precompress = true, envPrefix = '' } = opts;
 
 	return {
-		name: 'adapter-fastify',
+		name: 'svelte-adapter-fastify',
 
 		async adapt(builder) {
 			const tmp = builder.getBuildDirectory('adapter-fastify');
