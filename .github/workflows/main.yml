@@ -31,7 +31,7 @@ jobs:
         run: npm install -g @cyclonedx/cdxgen
 
       - name: Generate SBOM
-        run: pnpm run sbom
+        run: cdxgen -t npm -o bom.json
 
       - name: Commit and push SBOM if changed
         run: |
