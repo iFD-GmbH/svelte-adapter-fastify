@@ -1,0 +1,6284 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7f76c31b-f5d3-40bb-8d9a-58d22e2098c4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-04T09:46:29.516Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.11.6",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.11.6",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.11.6",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "name": "svelte-adapter-fastify",
+      "group": "",
+      "version": "0.1.1",
+      "purl": "pkg:npm/svelte-adapter-fastify@0.1.1",
+      "bom-ref": "pkg:npm/svelte-adapter-fastify@0.1.1",
+      "type": "application",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "@ampproject",
+      "name": "remapping",
+      "version": "2.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "df4899b403e0cfe2d3218a1e8afa98a3ce777f4da305849de6e1a71a9905574337c4eb7d68def77ab920600999538df1e157ea7272f15bd2a98374792c2e1863"
+        }
+      ],
+      "purl": "pkg:npm/%40ampproject/remapping@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@ampproject/remapping@2.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "aix-ppc64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f68dd3326a667ed68231ea4e740e64ff20f0f127c89f2cd65938d84c5097de43d20c93113904dbf2383e87d0a7c279a6d6f3b3bf137b8087c1e55d9ec298ed18"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/aix-ppc64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/aix-ppc64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "android-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "546cc6863e2524ef93546575bfc9ed09958992d57b4860acdcf9f5191588d52045b5100ba289a6f24e44f4f9b08371ce01a97654373617df8f33fac463aa080e"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/android-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "android-arm",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "01d24a48f7841e08bbfd986e20fb5c40aaf9450768e8e3b620bf3b26489a9e231830f6c2b68b7d7f13dbacc8810033965a6dd3dac8bdb2d02256c19b4d01646c"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/android-arm@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/android-arm@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "android-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0f61b2253d648ef3bffddadb453dc789bf573f041e59df6f6680499fe6eefe556c399d7772a35d0dea8817fc50e7f5665af31db8fe80997bf294efcf21cda2b3"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/android-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/android-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "darwin-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1ad68181a9a656f745eda3c8807da3c4c0dd8af7b3805bba88aa664fee3cf85f07860e49fec7e70e27a0d1a786fe37d2be4610536fe971e14f0ca96a673c277d"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/darwin-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/darwin-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "darwin-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d624f81552f4749efafead7077b5c3b17ad25bea0ba2aba9b6f87808b4789084c3b6a8b67bfc705f0742547f21547538df080976cabb1b1bb372ce88abfedbc5"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/darwin-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/darwin-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "freebsd-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9e4e2d18fdc94e1cf82dadfc532fe0cf25eda643d6f334809a85212bdc4a2977410b328e0cc73669d901dbef289bd04362e833fae195eec2e6a53633be6cfa4b"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/freebsd-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "freebsd-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3eb8a468d8e25dd47695a5ba3888e56deb823eb3da025d08c0f21a46ff92315f0288cf22d8ba95507142d7ef1e391816c98ef285063ed94d9f039e6607345e6b"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/freebsd-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/freebsd-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "67d91f6f5bfa66519b5a3f04264f53e9ccd51238eada7b5260b636730ea9019978a0ab5f810b92e073aae3533f05ca0b3f3ad46cd77e4780571721fffe71f156"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-arm",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "70fce88f05b6a24821ed9951a5c044b6c5fb581baa6cbacd5ea2d4f3d1b159b36deae220efc113f36aa27d4cb75ba395c30e995a86d6b9be68a99395b70a257f"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-arm@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-arm@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-ia32",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b10ee5d3433c6d2bf7e862d5f7905501d849d90b086c2b828e1fee62b5a2310494b95f8ba57c08aa18090dcbcc4e3f95b109aa0072f6c9869ab0436f27b08328"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-ia32@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-ia32@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-loong64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d2eafb69ed7a843502e0e2f98849c36f4b591c3c589ae43284a86c3c157c7fdf5fe99f4a40cd36837ddff77acd1f9037d1a80c4b8eaed873faa93744b7a43592"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-loong64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-mips64el",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "901ffae8fd4eb073b9ccbcf48ba5f4471950fb772ed269314b74ca16f91be658a7eaec19fedb4e90fdd9f257d1f6624e064d7867067dd7cd9220858518d9aa9a"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-mips64el@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-ppc64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5190a627bafd5f67ded83ea306690b04c41eb573d722c6634090a3830a550f3f9831c4baa05476eda964806bf73aa92fd3b6f176fc3b7f207bd7fa2571e26191"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-ppc64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-ppc64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-riscv64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "913c70bb898bc9e3a5b152053df428f9f409015f66876e312fecbe066e9e8f4ebbb1800d8f2130d5d3479afa2ac4950232790174aa6f3a7d0086a97afb857278"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-riscv64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-riscv64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-s390x",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2b675229329f99d87bf2e27735c5858aac91ae299f7629d2e44acb4a7def96e1cd7875670401560bc6b85f937eec58151351235d2d500d96e9a990637eba8c4d"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-s390x@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-s390x@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "linux-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ba18fc376a1b29313aa5267e68c51baaafb59d7c4d8d92088c28c62dfb16bd5a72ee028238beabb18d4c85187dccbb54b4023bbe980b30ae83c633bc426f6527"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/linux-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "netbsd-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a701ed30ff6f880cb5a073ef831b4ebfe3a476e2b9ba0a1f3535438a523304ba68580335eabedbfe6c41bdfa6e403a5140531fb95af968b727e32bde1af059bf"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/netbsd-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/netbsd-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "netbsd-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58e6f97caaef55344c7d614d0aba185969256e75c7d10e6b669a63ab4bd021d96c40abb0ea67528a1c12a38455fd8750e5408a2af072effd196582c164a21bc1"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/netbsd-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/netbsd-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "openbsd-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ec0db4f3eb902a04f11ddd06d2ea993bc5232b64740c36f87c398446d0118d21d6c6a313c9ee04af3e3365a7f1ec38bd0affa534762e9dc0248861724a80fe33"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/openbsd-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/openbsd-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "openbsd-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1b8844e34e44ad35ab6a267c5224a87ac1fc0da0ac326d026b2e1fb0558e394733f1bf2b0bab82be76a0afe8278a81235a7d300bea35fd3007b7e22df8ca4832"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/openbsd-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/openbsd-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "sunos-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "97e6b329284ccbb171cd8d118f8442b79543feaf261bf7be9838af82ca68fb22fccd6eea13072d43a62a297df80d312578502f08852f882157d520d9452c8c40"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/sunos-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "win32-arm64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3b64bb48d67375c146ede14a82fc14119d951bd0ffb27fde222cfc5d167543f0cee5adecefa5efd26741cd53398f947adfd9574263e64a8d224691ea514aecc7"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/win32-arm64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/win32-arm64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "win32-ia32",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a27389d36a6ab3d87588c2753d0a6147e559bfca81310efb2a572caaff42356db0eb22eaa1444b720111008bab63a404eb76db2eeaa03fd013a9a8c52cae4031"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/win32-ia32@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@esbuild",
+      "name": "win32-x64",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4d7bfa62727c64c55d5fe497595068ff4a7c2d372b5189e0a568ef9bdd533238c14228bb3b3d752f0e656c35796344f3ba14891f0887e2112d0b5238da6312d2"
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@esbuild/win32-x64@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "ajv-compiler",
+      "version": "4.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4648aeffcc088e9b1fe3a46bf858ad7771d13fe56cc541430de6a0d21b3d2f492c7e7c31da0ed23d041314bd04f10bfeadf5f340ec412678d407d2135038df59"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/ajv-compiler@4.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/ajv-compiler@4.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "error",
+      "version": "4.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "452a37b150d77c7b2488164a04f4609d04ed22aa62ffbce124e1260310a205c33b774bb07467712e5b0268bcc6b3cbfc367c484657c6d0de75a79c8568e7a7b5"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/error@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/error@4.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "fast-json-stringify-compiler",
+      "version": "5.0.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ba293bc981e42ebe9fc5df2125267c73ec45e1669f3caf97ce77900cf53e0f5d2be57d7d196f2525ca26d988a35f6faab4517510d2651d728533da2e5cd25881"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/fast-json-stringify-compiler@5.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/fast-json-stringify-compiler@5.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "forwarded",
+      "version": "3.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "909131b29e090a6b3b8a9ce0ed2277cbc0f099e3da10b1f1298b60fad668c3e934ce75137f771bfa7a60caa9bcf804d939d99f81fc9d21e6cf0d6335ef6c1fc8"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/forwarded@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/forwarded@3.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "merge-json-schemas",
+      "version": "0.2.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "380dca1810b2e8ab48bcb7fc0c8342e7cf34a398819435f84b1ccb412f07a2b2406ea96eccb467f345175346f1667ed43858458294490dab1fc27f671b8146e0"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/merge-json-schemas@0.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/merge-json-schemas@0.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@fastify",
+      "name": "proxy-addr",
+      "version": "5.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dfba95540d6a679b201fb2a91e4902e33f522ba4ad22c21c3a6a63bcc3d735bdefc76190c6166872881561baf63db6de2c24316083c3a24df4ef112f4593b318"
+        }
+      ],
+      "purl": "pkg:npm/%40fastify/proxy-addr@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@fastify/proxy-addr@5.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@jridgewell",
+      "name": "gen-mapping",
+      "version": "0.3.12",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3ae2c60b8e938c1e416cdd5d1fc2542d555963859376417bb55f58b3ac0b2f5aee6d99c232cb4e84d1ee794e5b2c2ae746e0e128f0cce20eacc3805e9791b3aa"
+        }
+      ],
+      "purl": "pkg:npm/%40jridgewell/gen-mapping@0.3.12",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jridgewell/gen-mapping@0.3.12",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@jridgewell",
+      "name": "resolve-uri",
+      "version": "3.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6d12128022233f6d3fb5b5923d63048b9e1054f45913192e0fd9492fe508c542adc15240f305b54eb6f58ccb354455e8d42053359ff98690bd42f98a59da292b"
+        }
+      ],
+      "purl": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jridgewell/resolve-uri@3.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@jridgewell",
+      "name": "sourcemap-codec",
+      "version": "1.5.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "553dbe1b5550b3ff68cf4efc6cbad86de71d64ab3dd76cd09647a5629b9ff925c5f90bd90d82656f1fcb4b1fa679203074316717c1555d6f760158e39159a017"
+        }
+      ],
+      "purl": "pkg:npm/%40jridgewell/sourcemap-codec@1.5.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jridgewell/sourcemap-codec@1.5.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@jridgewell",
+      "name": "trace-mapping",
+      "version": "0.3.29",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bb0ea0ba25bf81c0063c384b99defbffa956f102de895e51513b005f8e836faa0b8466958f89619cfc1bd7ce2cd5b91cf2475583ffa1f7cf1dae8f06443a6661"
+        }
+      ],
+      "purl": "pkg:npm/%40jridgewell/trace-mapping@0.3.29",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jridgewell/trace-mapping@0.3.29",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@polka",
+      "name": "url",
+      "version": "1.0.0-next.29",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c304005a1592b8769a83c738abf28dfef0a878e258b21008bcc4300f81a949bdce89992515fbc08268f4542041226469b85fda160211ce59579555fddc97afc3"
+        }
+      ],
+      "purl": "pkg:npm/%40polka/url@1.0.0-next.29",
+      "type": "library",
+      "bom-ref": "pkg:npm/@polka/url@1.0.0-next.29",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "src/handler.js#7"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "@polka/url,parse,@polka/url/parse"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "plugin-commonjs",
+      "version": "28.0.6",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5d2401d4aec5514e503fede5390995084dc8d0571b6cdbe6353e152528fdde25236b268046b4d07a845d8984287ed00904bad1f6dd9a83001ddde91a4e01cd97"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/plugin-commonjs@28.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/plugin-commonjs@28.0.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#5"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "@rollup/plugin-commonjs"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "plugin-json",
+      "version": "6.1.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "106236b5ee44364d5ca067800d223067b1b643c0894b6b05d76d13ee32f0e31170f67ef020e5c7a3e90861102856924037e926a994a83b7169e09b68345e1178"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/plugin-json@6.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/plugin-json@6.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#6"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "@rollup/plugin-json"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "plugin-node-resolve",
+      "version": "16.0.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b64e580b1256206f35ba622f3644a8776a8ae4ac905b5f6a70117f07bf27d5b8ed38e37a8332a855e4b3004f321c26440e6aa41ca931a6513103c2b37492c9a4"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/plugin-node-resolve@16.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/plugin-node-resolve@16.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#4"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "@rollup/plugin-node-resolve,nodeResolve,@rollup/plugin-node-resolve/nodeResolve"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "pluginutils",
+      "version": "5.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a962766536e6ba6c222c5a267f34f2b792a78388703e2f6bc0260de121dbe9e69153528d3b871cc48347aff5611f81a03e5b755df4932d7d8b05399ef277b867"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/pluginutils@5.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/pluginutils@5.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-android-arm-eabi",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "240701af5f9f82ac76d26ec5c1ed43c4f525fe13e479eea303a3e5ee7d6fd8416292d0077a74da5e5e5a2058d4204b1f9fdc371c4e202b594480d18ccc10ecd7"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-android-arm-eabi@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-android-arm-eabi@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-android-arm64",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "46ead97ad5ea4eee29f86d0285b9e4c01b80b7001b230264c9cc359fa1af946941b92e2ee6a96be68a62c7c70101814981a634e535ad33e2daa058205266d911"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-android-arm64@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-android-arm64@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-darwin-arm64",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7ccff13deb22ee0d8cedc864dfb2ce9e69d24c72c6fefda0816a8a8f7082035acc0389a6e4a5414f57cda2cc1ba352613ee34d66b570a53be5095820bfc036ce"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-darwin-arm64@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-darwin-arm64@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-darwin-x64",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8039d6939eeeac9ae4ac7436595c7d4d25531fb952954ec4dc016a8a4a3e6e08e587bf1a27cf3fde7c9c31ac79d952158c89b739b5e70cbd87d347bfc73a22a7"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-darwin-x64@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-darwin-x64@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-freebsd-arm64",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c27150989ff33d384ce731067270dc089798260b522e387577ffd6b87ce17facd3dcc77506fbe12675a8cbe1c408abb66ccc5a21c7d68aeddb260c7acf88365c"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-freebsd-arm64@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-freebsd-arm64@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-freebsd-x64",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b81988c68278e3ddd8013bd4d9cd2ea46cfcedff7d7b7c28a7b4c980e03f6d73057764af28223bc64c58ff9939d1bbfb27a770d525d3e0c4014122e7f016ff53"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-freebsd-x64@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-freebsd-x64@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-arm-gnueabihf",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9f479d0e6487957161ae59932bb5c1bb02a51b931b4bbca5792d5c43d9e7e2421e5be7491fe131a8d810d11ac545ec3c63ed15ff1e82e488ec1eb266887b64c5"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm-gnueabihf@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-arm-gnueabihf@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-arm-musleabihf",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f165543f2dc5b40b0a4a9ca4db5915e761c2c41fa67ba6246e4147013cc2d98777caea87c32da56c52f86a524e2d72a58e8470d3c664f3fc448fcf5c2d0ff837"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm-musleabihf@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-arm-musleabihf@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-arm64-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cae92d00e69e3a0a2b583785260823b8290c19e2137eabcf824217843aac7ca5fc2778c6cb1743660055ff6923ff60f23da2e25fa6cf7632434eef5107c9543d"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm64-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-arm64-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-arm64-musl",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5be18133889f113d4f970f2975569e730520c66887db709f0148f7daef249ead093c5c8ae30791cba1fba28c58143d7d63106e94bd0ab6c7e58395d2efeeeef6"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-arm64-musl@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-arm64-musl@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-loongarch64-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d73aa7504316a7d5ab195b956a4ea35939787c4b6b54a7d963b0af701994529c4027b59c4a8c0f48058829aff4a399812ff223e744887fdb6e8ab1b1eb73af7b"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-loongarch64-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-loongarch64-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-powerpc64le-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "465dc929a46ed0b1c8c7b1310400277f425c3907ad41f7dac37e13f2f2e583d6f5221cdc060688767bc46dbb19abdb99a77b801fe2641dddb43709f487dccf8c"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-powerpc64le-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-powerpc64le-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-riscv64-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8f96a47a5537b27c8be8adcdfe25fba2d2c1225df8edf1b099df79539812ffbcfa4f87ed2b6f3c8caab703995c14a731ef0c336f9ae036f020dd96d5e01a944b"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-riscv64-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-riscv64-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-riscv64-musl",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a699f996554682b670ef2c5b226f134efb63d44a0f8185006dfc34b838c83b3ce8aa566566b2c9fcaba213bb9fe44a53a424eb36dd4476dcc5d2768c9b4c0662"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-riscv64-musl@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-riscv64-musl@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-s390x-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1eeea111d8b1d28c6d5266bdf6348fef16ef8e450cff27247bf010438102e60ee33512cb2308dc370694cbde59281249c20d59a30b1c94d9e362accde33c2403"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-s390x-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-s390x-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-x64-gnu",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "12d9ecae6646a26cfd5b12b56d1e74efdcde7b7fbb6be01d165821c9de956c08e04490db4c0349f5d70f20f022efab86d399a272910bfa03c69802984ec72143"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-x64-gnu@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-x64-gnu@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-linux-x64-musl",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8804b8a7e2756b3e94b27d1ff318602f83da53cefc284b6eb4fe21ab0e7623820ee801a8c8e9070b171ce1baae7efd6d40b743585c7c951f58970c4abafdffde"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-linux-x64-musl@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-linux-x64-musl@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-win32-arm64-msvc",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "36d48954a717c1caa8cce97e170238d4e1f7380a43c8b93792a4c9831f3e829e8e9fd644b79998848b0a34f1ae699af7a7d4fa3563ca194ff4dd5c3808d53daa"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-win32-arm64-msvc@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-win32-arm64-msvc@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-win32-ia32-msvc",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "258037aaf08e2d74ac9d3477a22c86c2cd439b4613bb100079a6065651a952c1ea9683dc1633e0f97d058f6a8e0c62cdc10380702890987b9bfd5d34ee4887e4"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-win32-ia32-msvc@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-win32-ia32-msvc@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@rollup",
+      "name": "rollup-win32-x64-msvc",
+      "version": "4.44.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27ca36d8bb85d244deee6fbc3ef5bdc24dff6d1ab9fa6468e43aa8ebebd76fba2d0a6dd33e160e26a39a42d194f583164122f792b327a0ec4caf4fbd13a17752"
+        }
+      ],
+      "purl": "pkg:npm/%40rollup/rollup-win32-x64-msvc@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@rollup/rollup-win32-x64-msvc@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@sveltejs",
+      "name": "acorn-typescript",
+      "version": "1.0.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "230424e327f02dd89b0e5ad7544d388d365894b9f0b134f63c839040634b59f8dabc689f9e4d490f52dc66365a05345cc59bb615f3df34b384d380d2bbd96ab5"
+        }
+      ],
+      "purl": "pkg:npm/%40sveltejs/acorn-typescript@1.0.5",
+      "type": "framework",
+      "bom-ref": "pkg:npm/@sveltejs/acorn-typescript@1.0.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@sveltejs",
+      "name": "kit",
+      "version": "2.22.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d8cbc4a5261a6d4aec240a2ae6a08e0460259080a37e3ba7ae72dcc776009365d5ed3bc0221a2694ab00811e07ff8ba7b39ac07d89a3ed67ade4a46d73c74f22"
+        }
+      ],
+      "purl": "pkg:npm/%40sveltejs/kit@2.22.2",
+      "type": "framework",
+      "bom-ref": "pkg:npm/@sveltejs/kit@2.22.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "src/handler.js#8"
+          },
+          {
+            "location": "src/shims.js#1"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "@sveltejs/kit/node,getRequest,@sveltejs/kit/node/getRequest,setResponse,@sveltejs/kit/node/setResponse,createReadableStream,@sveltejs/kit/node/createReadableStream,@sveltejs/kit/node/polyfills,installPolyfills,@sveltejs/kit/node/polyfills/installPolyfills"
+        }
+      ]
+    },
+    {
+      "group": "@sveltejs",
+      "name": "vite-plugin-svelte-inspector",
+      "version": "4.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "27f3666f6436cbb99c936872097e1c9151dc479b6ed89f8cb41110aa90ebae010b676bafada41c2bf8a8095eb502a91d5c582b8a4b0e28871e0dc426aa71a157"
+        }
+      ],
+      "purl": "pkg:npm/%40sveltejs/vite-plugin-svelte-inspector@4.0.1",
+      "type": "framework",
+      "bom-ref": "pkg:npm/@sveltejs/vite-plugin-svelte-inspector@4.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@sveltejs",
+      "name": "vite-plugin-svelte",
+      "version": "5.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c288c84bfec66272436088358628168f644e03ab12456bdc4753cefdba84c85affe5465a876e9cf02cf8bb435aaa33de565b73b15a6dd939bc7768a8d15fb84f"
+        }
+      ],
+      "purl": "pkg:npm/%40sveltejs/vite-plugin-svelte@5.1.0",
+      "type": "framework",
+      "bom-ref": "pkg:npm/@sveltejs/vite-plugin-svelte@5.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@types",
+      "name": "cookie",
+      "version": "0.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e0a87d6ba0766d07220217fb152b8c45191459e709809bbd9cf9f1df2ce9b1f5d7fdce7444422aa476380bcd9b5cff74aab2ed5ed903c53668b183b75293b094"
+        }
+      ],
+      "purl": "pkg:npm/%40types/cookie@0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/cookie@0.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@types",
+      "name": "estree",
+      "version": "1.0.8",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7561f31dad96a845c8fced44f4e8eba1c313289976992ac4a258752289abbfa53e26e3706875ec5f1f5b2eee601bb05458520dd2c90840943f2f5ac87b1e17eb"
+        }
+      ],
+      "purl": "pkg:npm/%40types/estree@1.0.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/estree@1.0.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@types",
+      "name": "node",
+      "version": "18.19.115",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "90dac5893806e1af49027d4b31078b3afdccbd720fa24cd7ce2a2132b32cbe96202e9744b7f98c89561ce2c18ab437f2c4ce60203178560acf4720b0e1f1ce62"
+        }
+      ],
+      "purl": "pkg:npm/%40types/node@18.19.115",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node@18.19.115",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "@types",
+      "name": "resolve",
+      "version": "1.20.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "eb4042c1114e6424210e773041dc7178e10491b73974831c7182f06f1b12e1350d79510243fa412748f4f66ac73a5fc926fa513c6c0ef52bc4e2747635bfdae1"
+        }
+      ],
+      "purl": "pkg:npm/%40types/resolve@1.20.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/resolve@1.20.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "abstract-logging",
+      "version": "2.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d818d14d9c533ef85e3af19b06c94549839492bf928cfb4e9eb2cfdf77fe54858bcdecd0a5972a560ee36b72f87415e6cf38304fe6b4dbd8d1c793c28b726e88"
+        }
+      ],
+      "purl": "pkg:npm/abstract-logging@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/abstract-logging@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "acorn",
+      "version": "8.15.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "359c896ab05f2fb9d6c08abe1432fa669ff21c485e3cc3679c9d32dea7e2782ae636f61cb7cbafb62578d54be549ee9aa407e4d1f63515b5b1f8dc1f9a9bed4e"
+        }
+      ],
+      "purl": "pkg:npm/acorn@8.15.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/acorn@8.15.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ajv-formats",
+      "version": "3.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f2252a979d04511fae51c7514371c3a9ae84572a3776870bf20e5627714d7169aeeb621b90652e7bfa44c8b056f1518a2ae7133e0a9e92ce1f214d43038ca8c1"
+        }
+      ],
+      "purl": "pkg:npm/ajv-formats@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ajv-formats@3.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ajv",
+      "version": "8.17.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "07f801b8d8394a2313acf902f80dbe716d11b33c316269fa558c41fe29e5052b52e67c7ac4722dfde84a46120c86abac97b6bc2e34286678c2b39be1c31390d6"
+        }
+      ],
+      "purl": "pkg:npm/ajv@8.17.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ajv@8.17.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "aria-query",
+      "version": "5.3.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "08e44ea676a86a9d44d85d34d12eb6afa03ad2e1d99e696fa2685fc93d8395372b6353ab04a9f65211fbaa7e704c2f7332f0f4018edcb1d3d237028ffbb5a243"
+        }
+      ],
+      "purl": "pkg:npm/aria-query@5.3.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/aria-query@5.3.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "atomic-sleep",
+      "version": "1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "90d3a30ea021ee9c745d6348fb841bce8891fe74e41c058db9ddaebe726ab83d7fc796bb11064c253d00733a8ad109faee863f4d34352db50a6a3669a7723db5"
+        }
+      ],
+      "purl": "pkg:npm/atomic-sleep@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/atomic-sleep@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "avvio",
+      "version": "9.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7d80129d88bad340ac1ff8fd110a2fee5102027898881162880b4136e6582c0da578b7bda8ebd9cea607163b488fa803d9532830b3f5e3cdf82c55afaf821f0f"
+        }
+      ],
+      "purl": "pkg:npm/avvio@9.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/avvio@9.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "axobject-query",
+      "version": "4.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a888f41bdc196cc18d2e32e68353d3eafda613d007db3967003243ff6b42e84d348609a150e7c407a82b7873c07cb452b9f1ea44e2144e4c3a13e337947d0f4d"
+        }
+      ],
+      "purl": "pkg:npm/axobject-query@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/axobject-query@4.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "clsx",
+      "version": "2.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7989b441606d52b0566561b4777f3a386030d7a67df793e2395a3607b6e35926c779d1a5e5ed1959aabae6438681448d7ac1080e407d2126d383f24af5d84264"
+        }
+      ],
+      "purl": "pkg:npm/clsx@2.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/clsx@2.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "commondir",
+      "version": "1.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5bda40870d236b511d6f91957481759a3670fc0488d0095285733cdd45067b60d5af94dd00f100d4e03c9bf83ccd6a7dc7a3a7ee0aae7d8f856ad0db0b730342"
+        }
+      ],
+      "purl": "pkg:npm/commondir@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/commondir@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cookie",
+      "version": "0.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "53bd5cc936a6ba1d4244d09fa4663ab68dbc971bcdc0f1b81aecff1158e07f7266cefd2f943a756ad4fd792e5d0e33181ee7291db5a7b3a2f07f704acfab2f77"
+        }
+      ],
+      "purl": "pkg:npm/cookie@0.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@0.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cookie",
+      "version": "1.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f4aaff8f83b5e884aff33041849a22e1b5ce60d4e414b3aa48bdd40c1d278d7c425cd7b38dec95ac9c86396b607ecfeada49b583005c7c7f2ad72106a0c62e9c"
+        }
+      ],
+      "purl": "pkg:npm/cookie@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "debug",
+      "version": "4.4.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "29c282aa27ed049719afefbbca4a03204c126b75d6a304df34fa3dd816318d78b260456b51087668bca1c410b0c30fa17a8aed505c44258711ce8b2cb5310161"
+        }
+      ],
+      "purl": "pkg:npm/debug@4.4.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.4.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "deepmerge",
+      "version": "4.3.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dec52a6cc11cefb5eaa5d34eec547246883e796de987e19809b8feacafae63244cbb0b15cb4acc895b4f9fe40994a16f58fff53d8a5aa6a627d0c7b6927167f8"
+        }
+      ],
+      "purl": "pkg:npm/deepmerge@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/deepmerge@4.3.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "dequal",
+      "version": "2.0.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d237bea8f28710ca21bdf453084a370ab3c6e9c033018826ccacb1462612483912e9e1897725499bb59a600e4409a003f702c1d93e0411eca603968555c61708"
+        }
+      ],
+      "purl": "pkg:npm/dequal@2.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/dequal@2.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "devalue",
+      "version": "5.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "99ab9ae4a5226a9bc4c221007be5e7959dd1874183faa23527f9dbf6fac97379ae3d7bdc17ff205d84d617bebee4302a1f20d4b4e208984ba8d18284f66b2157"
+        }
+      ],
+      "purl": "pkg:npm/devalue@5.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/devalue@5.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "esbuild",
+      "version": "0.25.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3fc3ad29946fff9279861cf471401dbbf70bb8f20a5e9425d51f6966dbe61d642fac051577450d20f4f8201e16deb34ea953b4ae5a8798221b4b0c61fdcf7251"
+        }
+      ],
+      "purl": "pkg:npm/esbuild@0.25.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/esbuild@0.25.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "esm-env",
+      "version": "1.2.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "129c6bbfe36bfc268be1970518f24860b585a26f98795d43a8c2c726811df52611c4d6da16bb81c1f117fe49075097f9e63dbe4d46e60dc9ae8a56cfd539971c"
+        }
+      ],
+      "purl": "pkg:npm/esm-env@1.2.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/esm-env@1.2.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "esrap",
+      "version": "2.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cb398f36997b4c16cc442e4b8f626525934f9a5d2dceaa2a3f9075257c9c354c2daa66bd00a08ed0cdb01eb760b07732d56456ed2f6b2649c032d072837bac80"
+        }
+      ],
+      "purl": "pkg:npm/esrap@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/esrap@2.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45f924fcca7f0cbec95637b7bb5f05c45ba34254cd476aba41f312301ec0bc2071f753468ff6dade409fcdad1fe9d5436f0ed89517ff9c3ae7ee942b082c90ff"
+        }
+      ],
+      "purl": "pkg:npm/estree-walker@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/estree-walker@2.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-decode-uri-component",
+      "version": "1.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58a80a5a0e5e531bd1646c16f05bdf6da1fb0174a1d9c2fede3e5f306cd4302c56049ddd5776bb5b3f32d9ffee4347b707a5a6a1d0f7a12e788d343d1d54c822"
+        }
+      ],
+      "purl": "pkg:npm/fast-decode-uri-component@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-decode-uri-component@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7f7a90f68432f63d808417bf1fd542f75c0b98a042094fe00ce9ca340606e61b303bb04b2a3d3d1dce4760dcfd70623efb19690c22200da8ad56cd3701347ce1"
+        }
+      ],
+      "purl": "pkg:npm/fast-deep-equal@3.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-deep-equal@3.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-json-stringify",
+      "version": "6.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b3b48913cdd0281670839e1d21b0f9ac2b73381543e3757545e5975d8a818300b01cb600013d1141cfc59ab420957a963e9cfaa26b6bc8940e6aee6323836bbe"
+        }
+      ],
+      "purl": "pkg:npm/fast-json-stringify@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-json-stringify@6.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-querystring",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83a2ae2969855dcd1f203f16587d238ade20d00181a0984290931bd5199bb1211436f43e642f03e82519f86b45f2733348f5e786278fcb2aaa8a9ccd3449c78e"
+        }
+      ],
+      "purl": "pkg:npm/fast-querystring@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-querystring@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-redact",
+      "version": "3.5.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "770b284254bb87d84c79852ad56fbedb73437012d5e0aa8e3672130d5f438df4b7ab54a00c656b05dbef4cb528b56b4f483edab160d5f7f0a6b193f2f077fbd0"
+        }
+      ],
+      "purl": "pkg:npm/fast-redact@3.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-redact@3.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fast-uri",
+      "version": "3.0.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "02d7e8d783a26d2bf9c00a7855636c15813501c850453bfd701196113e296561f362c845492f4d408e88e7badd2a7f5cae859531b6056cb849fb226f9992081f"
+        }
+      ],
+      "purl": "pkg:npm/fast-uri@3.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-uri@3.0.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fastify",
+      "version": "5.4.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2387559547be58d40084a4b2bf5e70f9dc1487610f8849785f694660c98d4a017cdd6cd33003ca19d584bf9b4fb0240e6fe48e670cfc565b5adaf17e39e0e047"
+        }
+      ],
+      "purl": "pkg:npm/fastify@5.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/fastify@5.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "src/index.js#4"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "fastify"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fastq",
+      "version": "1.19.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1b02d3cb19025e35dbc6a2214ec308d8dba2f21b8c3ed9f183b92b6a33c90239c41bf8a2392ee2fb30ad586651f46d0d04a6d72a1e97f66f5422c617fcdeafbd"
+        }
+      ],
+      "purl": "pkg:npm/fastq@1.19.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/fastq@1.19.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fdir",
+      "version": "6.4.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "862168aa9c9971f366d72738bbca1609ff40d9ce03dd08c2ae4b37ce6a15295c69411ce63cd6abd615097011b64501ef11518337e266f356617952c040c2bafb"
+        }
+      ],
+      "purl": "pkg:npm/fdir@6.4.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/fdir@6.4.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "find-my-way",
+      "version": "9.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "791a05590c3e62fdadb9894ada98c54b68c65d2c52a6902cde14908dfc552b13396a6102cc881861cd45108f199a14a1fc883e16b284cf8dcd2d12898d809956"
+        }
+      ],
+      "purl": "pkg:npm/find-my-way@9.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/find-my-way@9.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e71a037d7f9f2fb7da0139da82658fa5b16dc21fd1efb5a630caaa1c64bae42defbc1d181eb805f81d58999df8e35b4c8f99fade4d36d765cda09c339617df43"
+        }
+      ],
+      "purl": "pkg:npm/fsevents@2.3.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/fsevents@2.3.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ed71cdc47eea5fdc46e66230c6486e993a31fcc21135c3a00ebc56b0cb76a40af6dd61e9e8cad194dec50521690a9afea153b417be38894811f369c931f1b648"
+        }
+      ],
+      "purl": "pkg:npm/function-bind@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/function-bind@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "hasown",
+      "version": "2.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d21254f5208fbe633320175916a34f5d66ba76a87b59d1f470823dcbe0b24bcac6de72f8f01725adaf4798a8555541f23d6347e58ef10f0001edb7e04a391431"
+        }
+      ],
+      "purl": "pkg:npm/hasown@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/hasown@2.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ipaddr.js",
+      "version": "2.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "020df0076a37ef0b25652d7d859aa8ad49eb9f34a4a4e572f888a20c4893a8db9b118a58b875887fa2b8a6c80dd9958a1314b8c61542ad155f6ffc1f5bc7d624"
+        }
+      ],
+      "purl": "pkg:npm/ipaddr.js@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ipaddr.js@2.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "is-core-module",
+      "version": "2.16.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51fa1e300e9f209f304d81445237a59da188ebbbfaf8deea5c912f42e2066bdf65e31b02aee498395490d2e3c0367e1d0339bc96460f68a2ebae28cbabbc76df"
+        }
+      ],
+      "purl": "pkg:npm/is-core-module@2.16.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-core-module@2.16.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "is-module",
+      "version": "1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e75ca93d23c2a1310837d772e4ecbe878a528602663c2ca029fc9108848123e268593ff6a09bcaf103f19b0bfb6ffa76dfd8d7ae6f4cd669506f2289e40d79da"
+        }
+      ],
+      "purl": "pkg:npm/is-module@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-module@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "is-reference",
+      "version": "1.2.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "53cd8cb175e2148ae308ae28b4b4fea36340d8277683930ba0e5575198c83a12eeaeb471a445f323c3b42991ebdc88cbbe5007d644cf612baa7abe53f5954129"
+        }
+      ],
+      "purl": "pkg:npm/is-reference@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-reference@1.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "is-reference",
+      "version": "3.0.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8b1909a2a42f00ff3c13ac0bc9d2c61aa089b2b1549eaa07e879da73307c5e60c7d6869653ec71769b6f8a44e068486d679dcacba617881b942365972cc0b08f"
+        }
+      ],
+      "purl": "pkg:npm/is-reference@3.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-reference@3.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "json-schema-ref-resolver",
+      "version": "2.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1c6d12201f57e09f1bc1bc426e777915f3c46dc5c02584e2d6904978ffd03ce37ec3ca2f48c13c8911be1251cdc59357d9087a7989f519dcc9152e1c0c57f1d1"
+        }
+      ],
+      "purl": "pkg:npm/json-schema-ref-resolver@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/json-schema-ref-resolver@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "json-schema-traverse",
+      "version": "1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "34cf3f3fd9f75e35e12199f594b86415a0024ce5114178d6855e0103f4673aff31be0aadaa9017f483b89914314b1d51968e2dab37aa6f4b0e96bb9a3b2dddba"
+        }
+      ],
+      "purl": "pkg:npm/json-schema-traverse@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/json-schema-traverse@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "kleur",
+      "version": "4.1.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a3e34efbc5ab462404138ffb9f044984dd475a9566266e75d690475313cbb69d015084b3941a653916129937250a726f42adad2aefec825df156991ced95ae41"
+        }
+      ],
+      "purl": "pkg:npm/kleur@4.1.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/kleur@4.1.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "light-my-request",
+      "version": "6.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "08761bbbc46d6e8488a15b0767a61ee1c8f8030ff2836a001629a517b98dbdf0d5d7dd8b47b9c388ab5221f0ae2d3ecaa243d24e7ffd91f54b9b9386374036f0"
+        }
+      ],
+      "purl": "pkg:npm/light-my-request@6.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/light-my-request@6.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "locate-character",
+      "version": "3.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "496d77c2cec18da789ea9ed0e823b69dc85b6047375f727a5ab9934c3b68ef230fa954994d4c98e538db89df806fc80b9c04edca062d8832091904519f664e88"
+        }
+      ],
+      "purl": "pkg:npm/locate-character@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/locate-character@3.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "magic-string",
+      "version": "0.30.17",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0d3ca1efca355fee0ca3c12e31193696fe60a717cc278ed89f281121c5f67b13f4bcb50d2bb2caf018d9faabc247fe8848b497d2429f6606d418b93947e509c"
+        }
+      ],
+      "purl": "pkg:npm/magic-string@0.30.17",
+      "type": "library",
+      "bom-ref": "pkg:npm/magic-string@0.30.17",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mri",
+      "version": "1.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b73cec91bddb1bc2ef606145fe60d3a6ade3a48e90f707372c49816a086ef83742b2c77515a90dec17348553661321aad5bab74607e409bddc9902e934f3aba0"
+        }
+      ],
+      "purl": "pkg:npm/mri@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mri@1.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mrmime",
+      "version": "2.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "637c1074583655ae9eb6f43923cdb252119db0aadc628c7aa7b15f2f52db2b6278574d45f531a57a94c88672b6e2dee4a1989b9a0f36286825840d572b922c2d"
+        }
+      ],
+      "purl": "pkg:npm/mrmime@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/mrmime@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ms",
+      "version": "2.1.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "purl": "pkg:npm/ms@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "nanoid",
+      "version": "3.3.11",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "37c4a97cf527529d5b2be3cc616f2a496765f54fb0c0d588e102b13980f2f4902ba3758c5fba7639e55117dbfedf8ee99da90d7af3e688784d999d876c503beb"
+        }
+      ],
+      "purl": "pkg:npm/nanoid@3.3.11",
+      "type": "library",
+      "bom-ref": "pkg:npm/nanoid@3.3.11",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "on-exit-leak-free",
+      "version": "2.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d1e24963a8572c67f5b9d1f07cd7ed06a1fe83bdc4538079d389d978aa73d6c61129a7c0821c31109ba70763bbac36642f83c67ec3159d35d9d848e26dba9cb0"
+        }
+      ],
+      "purl": "pkg:npm/on-exit-leak-free@2.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/on-exit-leak-free@2.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "path-parse",
+      "version": "1.0.7",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2c32733d510410f47ecb8f33f7703411dd325dbf29001c865a8fe4e5861d620a58dbfd84b0eb24b09aeaee5387c6bcab54e9f57a31baa00a7c6a1bce2100fcb3"
+        }
+      ],
+      "purl": "pkg:npm/path-parse@1.0.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/path-parse@1.0.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c5c787dac9e1b5be4cf658aa0ec984c39ea57b7efa993664117fe311bfd1c4d1727a036e97b78db250973fd1438ff2dcbb45fc284c8c71e3f69eda5a1eb0c454"
+        }
+      ],
+      "purl": "pkg:npm/picocolors@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/picocolors@1.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "picomatch",
+      "version": "4.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "33b04057a465732e6efa6ea83e100f160253cc08a85ffe81d03c72bc3968f65f3e4f79cb29badcce0d962d4cb3778e4bf11a9f50cc863f37a46ccbd7d8b764c2"
+        }
+      ],
+      "purl": "pkg:npm/picomatch@4.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/picomatch@4.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pino-abstract-transport",
+      "version": "2.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "17adf1e6d8b357a58287847a447ca2d8c97e33bd033515edffe1c0368c0c7e5a60185300ca6fd52a6e86ed9390463a8ded76c6c4ad4b83db7a66bb7339a8af33"
+        }
+      ],
+      "purl": "pkg:npm/pino-abstract-transport@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pino-abstract-transport@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pino-std-serializers",
+      "version": "7.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7bdd3a151634fad576ee2ab88ee2b34983db523d9da365f6257e04cd271ad7adf5101d9025052a19b0ee1116a5ecb0ad3a9c65eb1dfe9efa3d34f65c9a392214"
+        }
+      ],
+      "purl": "pkg:npm/pino-std-serializers@7.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pino-std-serializers@7.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "pino",
+      "version": "9.7.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "be730233ac594dbd560e62efb46da513fda9fadf610c422f4d626cbba15e8e413adaf07b80386fceba454780b0dada3ef49350c559e400a54f03528f07df2f5a"
+        }
+      ],
+      "purl": "pkg:npm/pino@9.7.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pino@9.7.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "postcss",
+      "version": "8.5.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dd86e2d6d02ec003fdb34af5510d89e27e58d06d396c99295083b4fdb23d321c260fbd12e5a4d66d7181c311eb7a54fe5ccd64e9d334a64f92c0d9294d137b3e"
+        }
+      ],
+      "purl": "pkg:npm/postcss@8.5.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/postcss@8.5.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "process-warning",
+      "version": "4.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ddcd8bcd0deb63d77485cd5e99cb0785f4fd270cf47028626ff40df3da0c136478e75c397f2ddfd1a7c0844445640c2b6c3538df0935d9dd0e441a4354c139d1"
+        }
+      ],
+      "purl": "pkg:npm/process-warning@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/process-warning@4.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "process-warning",
+      "version": "5.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6b7f6df40a47371d8be3e1c19d02aac711cdb35afb285f889ed77c43f8356d487aab4588a7dbe83d727fc748fe64be39285d6925df7eab68cb21131fbc4b2190"
+        }
+      ],
+      "purl": "pkg:npm/process-warning@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/process-warning@5.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "quick-format-unescaped",
+      "version": "4.0.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b580b5435860c91b87825a15fd85ecdb0d79ba73d587ca9fbbfa824df85361a99ac3b7f286e98a6b6c86a5d4a8f3bbd8df6ac87258fee1f59841750cb3d107be"
+        }
+      ],
+      "purl": "pkg:npm/quick-format-unescaped@4.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/quick-format-unescaped@4.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "real-require",
+      "version": "0.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e7b7ebac633f3824cba8b3808749a1540f5504c1ddfbd53b65bd931cc19d054a1954eb466c9ce3c6c6060c9dc0f4061808fe219facb54d56da39fcd6b66e4616"
+        }
+      ],
+      "purl": "pkg:npm/real-require@0.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/real-require@0.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "require-from-string",
+      "version": "2.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5dfd2759ee91b1ece214cbbe029f5b8a251b9a996ae92f7fa7eef0ed85cffc904786b5030d48706bebc0372b9bbaa7d9593bde53ffc36151ac0c6ed128bfef13"
+        }
+      ],
+      "purl": "pkg:npm/require-from-string@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/require-from-string@2.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "resolve",
+      "version": "1.22.10",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "34f472fbf9dc20c78395302cbaac0a2227deae26b085e7c526d90d496d2a64912a3046fea81b7fefb07f8c679e7a4f85d2e39e374e420dae875db6c882d557e3"
+        }
+      ],
+      "purl": "pkg:npm/resolve@1.22.10",
+      "type": "library",
+      "bom-ref": "pkg:npm/resolve@1.22.10",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ret",
+      "version": "0.5.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2355f1ad9490fa812b9114788d86c0c8412ed88d1abc1bef30ce4937ee84069ace1910aceb710da99def8dabeaf1f070dbeeb61b92c5e577a52b0b89a5cbdcc7"
+        }
+      ],
+      "purl": "pkg:npm/ret@0.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ret@0.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "reusify",
+      "version": "1.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83a4147dfd38a19a47b34786e69f37ac52e11de574d2e83f61ff6764ce9f2de52b3e0b814e44d039da40596b29321e794d97d54033da37735025f6d5440c5d23"
+        }
+      ],
+      "purl": "pkg:npm/reusify@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/reusify@1.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rfdc",
+      "version": "1.4.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ab56f737942445459497b8b2ca569a8f790ea484f43768bd32a2044173fbdc656c37d730ddf771f17eb77049968491a2d8f3c2176dc88e9ee4b66777f6b6b020"
+        }
+      ],
+      "purl": "pkg:npm/rfdc@1.4.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/rfdc@1.4.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "rollup",
+      "version": "4.44.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c7c1fc68fbc3fb16e5d03a3ca1ecf97f9a3c78c4b7b6b7c28217381e12c09c2923ed59747752561acd1417f0fcf3accb5b6ace8f6432995fc97124acc3e5c336"
+        }
+      ],
+      "purl": "pkg:npm/rollup@4.44.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/rollup@4.44.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "index.js#3"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "rollup,rollup/rollup"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sade",
+      "version": "1.8.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c5a9770995f55e5a3f938029c0216b1d50028bd7c1a89ed5fa6c2106cb9fff520e29b072d3df057b1f966bfe5032e6f0d3da5267fbbc118f0f5a07af26c5e9d4"
+        }
+      ],
+      "purl": "pkg:npm/sade@1.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/sade@1.8.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "safe-regex2",
+      "version": "5.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6302707b96b9d5694aeca6ce25110f76336ba55890048de9e13e7495fc0fb838599c4dd71954e51af8be6a895ce7e46fc430fa6e75268d5b14f67d5e6e82d463"
+        }
+      ],
+      "purl": "pkg:npm/safe-regex2@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-regex2@5.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "safe-stable-stringify",
+      "version": "2.5.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6f7ae9a532a6f53f8fb1508110e511e3a19623b7dd3acd3454a675fbd7351160da0ccbe341cead530b85c88a6b806813716a151d22ab53c1f7d591c0d9ed111c"
+        }
+      ],
+      "purl": "pkg:npm/safe-stable-stringify@2.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-stable-stringify@2.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "secure-json-parse",
+      "version": "4.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "771b4b24eeac737e635a27662f1a3b8a3f84838f0f33f925781b31a42f10244d2a24809ef8a6b0903426bc231952bf6eed62951e0316eafcb77d0ef332215930"
+        }
+      ],
+      "purl": "pkg:npm/secure-json-parse@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/secure-json-parse@4.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "semver",
+      "version": "7.7.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "445d05c3eacee4031ff4c0326915c8e005745258f994c1ea571c5d4a08956e2c52097a049a65ff8e4d02b89c38fb74aaae860ef55a1487e1dcb898afbed25e98"
+        }
+      ],
+      "purl": "pkg:npm/semver@7.7.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/semver@7.7.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "set-cookie-parser",
+      "version": "2.7.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "20e73cb9678e6609dbde9b5b09444958d8d650f70edd99d34ddcecbaba8446b3fa9cfcaffa9682e79bc93342e93a54f69def88c7ef7e0911b530d2e5c99e068d"
+        }
+      ],
+      "purl": "pkg:npm/set-cookie-parser@2.7.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/set-cookie-parser@2.7.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sirv",
+      "version": "3.0.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "168a8cbb43421812c2700912d6a03e5c92104d1ebf2477d05e5fae1ad78d090efa4fdd433148cf6bdc5f99ea8c637cfcd272d283dc9098d8cad0fc7a456b07fc"
+        }
+      ],
+      "purl": "pkg:npm/sirv@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/sirv@3.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "src/handler.js#5"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "sirv"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "sonic-boom",
+      "version": "4.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "20d6fb4ccdfbfe601cb0699cf61cb223af90477ad1d73551bb7e81d0d7865ca9ce38b89939f111e5203e37b5fb937c94611ccb59a7ddb930ef2407c3b30c04c3"
+        }
+      ],
+      "purl": "pkg:npm/sonic-boom@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/sonic-boom@4.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51758c2a12cec1529bef6f0852d40f5f17d853ebac7726ed52b2bff2e184f0240cbeb84ea70bf30c1c23d108522fb31073bbc8b084811bc550f3e203431a5f40"
+        }
+      ],
+      "purl": "pkg:npm/source-map-js@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/source-map-js@1.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "split2",
+      "version": "4.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51c8dc24e5a49eb36417a3cb5fcdea70733a28781528d915eb663c6b9b980d5bfdc9d19057000730aa877498ded554d6a658c6d1662908386b09d00e607e135a"
+        }
+      ],
+      "purl": "pkg:npm/split2@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/split2@4.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "supports-preserve-symlinks-flag",
+      "version": "1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a2dd169d74bd7e076480871e3dee911cd935580f3e9ae3dae9c4a3791dd5f0adbbabd041d6b4c4dd1d69ec7bf4cf567201cf2ce95beff0323259febcd4c02dd3"
+        }
+      ],
+      "purl": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "svelte",
+      "version": "5.35.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b96feb45762b859ec3878510359d2dfa85462f574433ef7919abc23bc69f024d4863670fabd05c66ff42dee9b968b2326b6cbc94878b3f12c823d0121a0f43cf"
+        }
+      ],
+      "purl": "pkg:npm/svelte@5.35.2",
+      "type": "framework",
+      "bom-ref": "pkg:npm/svelte@5.35.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "thread-stream",
+      "version": "3.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3aac8f67dbbde95a2103231f2729339a2bcead8db07cc49fdc2e53b4525580df879ba6a3fafa058652be919108bf61418755fa5e9dc396708e7c443707627ce8"
+        }
+      ],
+      "purl": "pkg:npm/thread-stream@3.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/thread-stream@3.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "tinyglobby",
+      "version": "0.2.14",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b57e5eece3351e762bdbe6b60bfe15d21b4e71241ca124c7f4a8099d5bcd9b9ce6fdcc8458a27b8fb62eb6c1fd0b131db4e9242c5cb6007acc722f4833c20f65"
+        }
+      ],
+      "purl": "pkg:npm/tinyglobby@0.2.14",
+      "type": "library",
+      "bom-ref": "pkg:npm/tinyglobby@0.2.14",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "toad-cache",
+      "version": "3.7.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fe6f0cfb6049529a09760007a06f9b682c014feb5fd95ada49f901825d18d34a885ade350c9f11e41f27b04c34239f18c05e48647eb3db8ff64e86c32a7a925b"
+        }
+      ],
+      "purl": "pkg:npm/toad-cache@3.7.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/toad-cache@3.7.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "totalist",
+      "version": "3.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b1fe22dfb9d0d8b071e26df007be32fae6e8a6ae96fdd2335e0d050c68ec62764755ad436bc147f39df094bda0b54860fb12578df937914652dc146841ea1005"
+        }
+      ],
+      "purl": "pkg:npm/totalist@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/totalist@3.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "typescript",
+      "version": "5.8.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a757625ba4ea2fd2f4ee7371bd130cee130cc387395cea3fd626cbe1a0081a6480b7db254c4d57830e4a5aea1fdae4cebc283d058ed9462f86685fbbb1f80f79"
+        }
+      ],
+      "purl": "pkg:npm/typescript@5.8.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/typescript@5.8.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "undici-types",
+      "version": "5.26.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "26508c3be7a174420aaa517193a21f568014566833edc53bcc3fe1f57674ab37a8b121e650954ecd242fbd84985979055c2f887cb29221f7e1bf4b1566ea7aa4"
+        }
+      ],
+      "purl": "pkg:npm/undici-types@5.26.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/undici-types@5.26.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "vite",
+      "version": "6.3.5",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7199fa343144ef0753a48360b3ef99278378f56daf469f0b08aae7dce6f591836d3a8db5bdf0e8695e46cc17cb538328bd2001f2e3519b88e0cd5419fa60733d"
+        }
+      ],
+      "purl": "pkg:npm/vite@6.3.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/vite@6.3.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "vitefu",
+      "version": "1.1.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0221bf2fd0d5b04607590f630049e47b49ca8804a53f0f896300e5e99e25e9aebf22a4f5b4ab1e125e91e7ead59ca26dfcade30935a242f828221e4cbaa04925"
+        }
+      ],
+      "purl": "pkg:npm/vitefu@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/vitefu@1.1.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "zimmerframe",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ac06ea1066bca2f272e29c81c5933bd21838a44ea00e0690d1297d3377a71b723477a1f85d200cdc678d18b2a7b01a6e8a3528c34eb8b1fef0c359eeb42e7fdf"
+        }
+      ],
+      "purl": "pkg:npm/zimmerframe@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/zimmerframe@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/runner/work/svelte-adapter-fastify/svelte-adapter-fastify/pnpm-lock.yaml"
+        }
+      ]
+    },
+    {
+      "group": "actions",
+      "name": "checkout",
+      "version": "v4",
+      "purl": "pkg:github/actions/checkout@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/checkout@v4"
+    },
+    {
+      "group": "actions",
+      "name": "setup-node",
+      "version": "v4",
+      "purl": "pkg:github/actions/setup-node@v4",
+      "type": "application",
+      "bom-ref": "pkg:github/actions/setup-node@v4"
+    },
+    {
+      "group": "pnpm",
+      "name": "action-setup",
+      "version": "v4",
+      "purl": "pkg:github/pnpm/action-setup@v4",
+      "type": "library",
+      "bom-ref": "pkg:github/pnpm/action-setup@v4"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/svelte-adapter-fastify@0.1.1",
+      "dependsOn": [
+        "pkg:npm/@rollup/plugin-commonjs@28.0.6(rollup@4.44.1)",
+        "pkg:npm/@rollup/plugin-json@6.1.0(rollup@4.44.1)",
+        "pkg:npm/@rollup/plugin-node-resolve@16.0.1(rollup@4.44.1)",
+        "pkg:npm/rollup@4.44.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@ampproject/remapping@2.3.0",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/gen-mapping@0.3.12",
+        "pkg:npm/@jridgewell/trace-mapping@0.3.29"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@esbuild/aix-ppc64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/android-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/android-arm@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/android-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/darwin-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/darwin-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/freebsd-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/freebsd-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-arm@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-ia32@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-loong64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-mips64el@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-ppc64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-riscv64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-s390x@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/linux-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/netbsd-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/netbsd-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/openbsd-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/openbsd-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/sunos-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/win32-arm64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/win32-ia32@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@esbuild/win32-x64@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@fastify/ajv-compiler@4.0.2",
+      "dependsOn": [
+        "pkg:npm/ajv-formats@3.0.1(ajv@8.17.1)",
+        "pkg:npm/ajv@8.17.1",
+        "pkg:npm/fast-uri@3.0.6"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@fastify/error@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@fastify/fast-json-stringify-compiler@5.0.3",
+      "dependsOn": [
+        "pkg:npm/fast-json-stringify@6.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@fastify/forwarded@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@fastify/merge-json-schemas@0.2.1",
+      "dependsOn": [
+        "pkg:npm/dequal@2.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@fastify/proxy-addr@5.0.0",
+      "dependsOn": [
+        "pkg:npm/@fastify/forwarded@3.0.0",
+        "pkg:npm/ipaddr.js@2.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/gen-mapping@0.3.12",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/sourcemap-codec@1.5.4",
+        "pkg:npm/@jridgewell/trace-mapping@0.3.29"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/resolve-uri@3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/sourcemap-codec@1.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/trace-mapping@0.3.29",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/resolve-uri@3.1.2",
+        "pkg:npm/@jridgewell/sourcemap-codec@1.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@polka/url@1.0.0-next.29",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/plugin-commonjs@28.0.6",
+      "dependsOn": [
+        "pkg:npm/@rollup/pluginutils@5.2.0(rollup@4.44.1)",
+        "pkg:npm/commondir@1.0.1",
+        "pkg:npm/estree-walker@2.0.2",
+        "pkg:npm/fdir@6.4.6(picomatch@4.0.2)",
+        "pkg:npm/is-reference@1.2.1",
+        "pkg:npm/magic-string@0.30.17",
+        "pkg:npm/picomatch@4.0.2",
+        "pkg:npm/rollup@4.44.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@rollup/plugin-json@6.1.0",
+      "dependsOn": [
+        "pkg:npm/@rollup/pluginutils@5.2.0(rollup@4.44.1)",
+        "pkg:npm/rollup@4.44.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@rollup/plugin-node-resolve@16.0.1",
+      "dependsOn": [
+        "pkg:npm/@rollup/pluginutils@5.2.0(rollup@4.44.1)",
+        "pkg:npm/@types/resolve@1.20.2",
+        "pkg:npm/deepmerge@4.3.1",
+        "pkg:npm/is-module@1.0.0",
+        "pkg:npm/resolve@1.22.10",
+        "pkg:npm/rollup@4.44.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@rollup/pluginutils@5.2.0",
+      "dependsOn": [
+        "pkg:npm/@types/estree@1.0.8",
+        "pkg:npm/estree-walker@2.0.2",
+        "pkg:npm/picomatch@4.0.2",
+        "pkg:npm/rollup@4.44.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-android-arm-eabi@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-android-arm64@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-darwin-arm64@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-darwin-x64@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-freebsd-arm64@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-freebsd-x64@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-arm-gnueabihf@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-arm-musleabihf@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-arm64-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-arm64-musl@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-loongarch64-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-powerpc64le-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-riscv64-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-riscv64-musl@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-s390x-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-x64-gnu@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-linux-x64-musl@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-win32-arm64-msvc@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-win32-ia32-msvc@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@rollup/rollup-win32-x64-msvc@4.44.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@sveltejs/acorn-typescript@1.0.5",
+      "dependsOn": [
+        "pkg:npm/acorn@8.15.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@sveltejs/kit@2.22.2",
+      "dependsOn": [
+        "pkg:npm/@sveltejs/acorn-typescript@1.0.5(acorn@8.15.0)",
+        "pkg:npm/@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5)",
+        "pkg:npm/@types/cookie@0.6.0",
+        "pkg:npm/acorn@8.15.0",
+        "pkg:npm/cookie@0.6.0",
+        "pkg:npm/devalue@5.1.1",
+        "pkg:npm/esm-env@1.2.2",
+        "pkg:npm/kleur@4.1.5",
+        "pkg:npm/magic-string@0.30.17",
+        "pkg:npm/mrmime@2.0.1",
+        "pkg:npm/sade@1.8.1",
+        "pkg:npm/set-cookie-parser@2.7.1",
+        "pkg:npm/sirv@3.0.1",
+        "pkg:npm/svelte@5.35.2",
+        "pkg:npm/vite@6.3.5(@types/node@18.19.115)",
+        "pkg:npm/vitefu@1.1.0(vite@6.3.5)"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@sveltejs/vite-plugin-svelte-inspector@4.0.1",
+      "dependsOn": [
+        "pkg:npm/@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5)",
+        "pkg:npm/debug@4.4.1",
+        "pkg:npm/svelte@5.35.2",
+        "pkg:npm/vite@6.3.5(@types/node@18.19.115)"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@sveltejs/vite-plugin-svelte@5.1.0",
+      "dependsOn": [
+        "pkg:npm/@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.0)(svelte@5.35.2)(vite@6.3.5)",
+        "pkg:npm/debug@4.4.1",
+        "pkg:npm/deepmerge@4.3.1",
+        "pkg:npm/kleur@4.1.5",
+        "pkg:npm/magic-string@0.30.17",
+        "pkg:npm/svelte@5.35.2",
+        "pkg:npm/vite@6.3.5(@types/node@18.19.115)",
+        "pkg:npm/vitefu@1.1.0(vite@6.3.5)"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@types/cookie@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@types/estree@1.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@types/node@18.19.115",
+      "dependsOn": [
+        "pkg:npm/undici-types@5.26.5"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@types/resolve@1.20.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/abstract-logging@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/acorn@8.15.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ajv-formats@3.0.1",
+      "dependsOn": [
+        "pkg:npm/ajv@8.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/ajv@8.17.1",
+      "dependsOn": [
+        "pkg:npm/fast-deep-equal@3.1.3",
+        "pkg:npm/fast-uri@3.0.6",
+        "pkg:npm/json-schema-traverse@1.0.0",
+        "pkg:npm/require-from-string@2.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/aria-query@5.3.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/atomic-sleep@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/avvio@9.1.0",
+      "dependsOn": [
+        "pkg:npm/@fastify/error@4.2.0",
+        "pkg:npm/fastq@1.19.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/axobject-query@4.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/clsx@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/commondir@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cookie@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cookie@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debug@4.4.1",
+      "dependsOn": [
+        "pkg:npm/ms@2.1.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/deepmerge@4.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/dequal@2.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/devalue@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/esbuild@0.25.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/esm-env@1.2.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/esrap@2.1.0",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/sourcemap-codec@1.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:npm/estree-walker@2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fast-decode-uri-component@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fast-deep-equal@3.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fast-json-stringify@6.0.1",
+      "dependsOn": [
+        "pkg:npm/@fastify/merge-json-schemas@0.2.1",
+        "pkg:npm/ajv-formats@3.0.1(ajv@8.17.1)",
+        "pkg:npm/ajv@8.17.1",
+        "pkg:npm/fast-uri@3.0.6",
+        "pkg:npm/json-schema-ref-resolver@2.0.1",
+        "pkg:npm/rfdc@1.4.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fast-querystring@1.1.2",
+      "dependsOn": [
+        "pkg:npm/fast-decode-uri-component@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fast-redact@3.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fast-uri@3.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fastify@5.4.0",
+      "dependsOn": [
+        "pkg:npm/@fastify/ajv-compiler@4.0.2",
+        "pkg:npm/@fastify/error@4.2.0",
+        "pkg:npm/@fastify/fast-json-stringify-compiler@5.0.3",
+        "pkg:npm/@fastify/proxy-addr@5.0.0",
+        "pkg:npm/abstract-logging@2.0.1",
+        "pkg:npm/avvio@9.1.0",
+        "pkg:npm/fast-json-stringify@6.0.1",
+        "pkg:npm/find-my-way@9.3.0",
+        "pkg:npm/light-my-request@6.6.0",
+        "pkg:npm/pino@9.7.0",
+        "pkg:npm/process-warning@5.0.0",
+        "pkg:npm/rfdc@1.4.1",
+        "pkg:npm/secure-json-parse@4.0.0",
+        "pkg:npm/semver@7.7.2",
+        "pkg:npm/toad-cache@3.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fastq@1.19.1",
+      "dependsOn": [
+        "pkg:npm/reusify@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fdir@6.4.6",
+      "dependsOn": [
+        "pkg:npm/picomatch@4.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/find-my-way@9.3.0",
+      "dependsOn": [
+        "pkg:npm/fast-deep-equal@3.1.3",
+        "pkg:npm/fast-querystring@1.1.2",
+        "pkg:npm/safe-regex2@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fsevents@2.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/function-bind@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/hasown@2.0.2",
+      "dependsOn": [
+        "pkg:npm/function-bind@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/ipaddr.js@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/is-core-module@2.16.1",
+      "dependsOn": [
+        "pkg:npm/hasown@2.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/is-module@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/is-reference@1.2.1",
+      "dependsOn": [
+        "pkg:npm/@types/estree@1.0.8"
+      ]
+    },
+    {
+      "ref": "pkg:npm/is-reference@3.0.3",
+      "dependsOn": [
+        "pkg:npm/@types/estree@1.0.8"
+      ]
+    },
+    {
+      "ref": "pkg:npm/json-schema-ref-resolver@2.0.1",
+      "dependsOn": [
+        "pkg:npm/dequal@2.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/json-schema-traverse@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/kleur@4.1.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/light-my-request@6.6.0",
+      "dependsOn": [
+        "pkg:npm/cookie@1.0.2",
+        "pkg:npm/process-warning@4.0.1",
+        "pkg:npm/set-cookie-parser@2.7.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/locate-character@3.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/magic-string@0.30.17",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/sourcemap-codec@1.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:npm/mri@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mrmime@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/nanoid@3.3.11",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/on-exit-leak-free@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/path-parse@1.0.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/picocolors@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/picomatch@4.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/pino-abstract-transport@2.0.0",
+      "dependsOn": [
+        "pkg:npm/split2@4.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/pino-std-serializers@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/pino@9.7.0",
+      "dependsOn": [
+        "pkg:npm/atomic-sleep@1.0.0",
+        "pkg:npm/fast-redact@3.5.0",
+        "pkg:npm/on-exit-leak-free@2.1.2",
+        "pkg:npm/pino-abstract-transport@2.0.0",
+        "pkg:npm/pino-std-serializers@7.0.0",
+        "pkg:npm/process-warning@5.0.0",
+        "pkg:npm/quick-format-unescaped@4.0.4",
+        "pkg:npm/real-require@0.2.0",
+        "pkg:npm/safe-stable-stringify@2.5.0",
+        "pkg:npm/sonic-boom@4.2.0",
+        "pkg:npm/thread-stream@3.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/postcss@8.5.6",
+      "dependsOn": [
+        "pkg:npm/nanoid@3.3.11",
+        "pkg:npm/picocolors@1.1.1",
+        "pkg:npm/source-map-js@1.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/process-warning@4.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/process-warning@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/quick-format-unescaped@4.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/real-require@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/require-from-string@2.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/resolve@1.22.10",
+      "dependsOn": [
+        "pkg:npm/is-core-module@2.16.1",
+        "pkg:npm/path-parse@1.0.7",
+        "pkg:npm/supports-preserve-symlinks-flag@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/ret@0.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/reusify@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/rfdc@1.4.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/rollup@4.44.1",
+      "dependsOn": [
+        "pkg:npm/@types/estree@1.0.8"
+      ]
+    },
+    {
+      "ref": "pkg:npm/sade@1.8.1",
+      "dependsOn": [
+        "pkg:npm/mri@1.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safe-regex2@5.0.0",
+      "dependsOn": [
+        "pkg:npm/ret@0.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safe-stable-stringify@2.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/secure-json-parse@4.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/semver@7.7.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/set-cookie-parser@2.7.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sirv@3.0.1",
+      "dependsOn": [
+        "pkg:npm/@polka/url@1.0.0-next.29",
+        "pkg:npm/mrmime@2.0.1",
+        "pkg:npm/totalist@3.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/sonic-boom@4.2.0",
+      "dependsOn": [
+        "pkg:npm/atomic-sleep@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/source-map-js@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/split2@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/svelte@5.35.2",
+      "dependsOn": [
+        "pkg:npm/@ampproject/remapping@2.3.0",
+        "pkg:npm/@jridgewell/sourcemap-codec@1.5.4",
+        "pkg:npm/@sveltejs/acorn-typescript@1.0.5(acorn@8.15.0)",
+        "pkg:npm/@types/estree@1.0.8",
+        "pkg:npm/acorn@8.15.0",
+        "pkg:npm/aria-query@5.3.2",
+        "pkg:npm/axobject-query@4.1.0",
+        "pkg:npm/clsx@2.1.1",
+        "pkg:npm/esm-env@1.2.2",
+        "pkg:npm/esrap@2.1.0",
+        "pkg:npm/is-reference@3.0.3",
+        "pkg:npm/locate-character@3.0.0",
+        "pkg:npm/magic-string@0.30.17",
+        "pkg:npm/zimmerframe@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/thread-stream@3.1.0",
+      "dependsOn": [
+        "pkg:npm/real-require@0.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/tinyglobby@0.2.14",
+      "dependsOn": [
+        "pkg:npm/fdir@6.4.6(picomatch@4.0.2)",
+        "pkg:npm/picomatch@4.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/toad-cache@3.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/totalist@3.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/typescript@5.8.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/undici-types@5.26.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/vite@6.3.5",
+      "dependsOn": [
+        "pkg:npm/@types/node@18.19.115",
+        "pkg:npm/esbuild@0.25.5",
+        "pkg:npm/fdir@6.4.6(picomatch@4.0.2)",
+        "pkg:npm/picomatch@4.0.2",
+        "pkg:npm/postcss@8.5.6",
+        "pkg:npm/rollup@4.44.1",
+        "pkg:npm/tinyglobby@0.2.14"
+      ]
+    },
+    {
+      "ref": "pkg:npm/vitefu@1.1.0",
+      "dependsOn": [
+        "pkg:npm/vite@6.3.5(@types/node@18.19.115)"
+      ]
+    },
+    {
+      "ref": "pkg:npm/zimmerframe@1.1.2",
+      "dependsOn": []
+    }
+  ]
+}
