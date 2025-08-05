@@ -91,7 +91,6 @@ function serve_prerendered() {
 	};
 }
 
-/** @type {import('polka').Middleware} */
 const ssr = async (req, res) => {
 	/** @type {Request} */
 	let request;

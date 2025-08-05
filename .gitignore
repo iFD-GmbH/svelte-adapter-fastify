@@ -2,3 +2,5 @@
 node_modules
 /files
 coverage/
+.idea
+.vscode
