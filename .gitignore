@@ -2,5 +2,9 @@
 node_modules
 /files
 coverage/
+<<<<<<< HEAD
 .idea
 .vscode
+=======
+.idea
+>>>>>>> 3b418032f74340d4c93d39fca0c5b444874e348f
