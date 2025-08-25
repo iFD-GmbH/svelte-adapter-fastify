@@ -63,18 +63,9 @@ if (use_http2) {
 
 const server = fastify(fastify_opts);
 
-<<<<<<< HEAD
-server.addContentTypeParser(
-  "application/x-www-form-urlencoded",
-  (req, body, done) => {
-    done();
-  }
-);
-=======
 server.addContentTypeParser('application/x-www-form-urlencoded', (request, payload, done) => {
   done();
 });
->>>>>>> 3b418032f74340d4c93d39fca0c5b444874e348f
 
 server.all("/*", (req, reply) => {
   handler(req.raw, reply.raw);
